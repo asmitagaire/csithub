@@ -1,0 +1,22 @@
+.firstpart{
+text-align: center;
+margin-top: 100px;
+}
+.why{
+font-weight: 700;
+font-size: 22px;
+line-height: 20px;
+}
+.why span{
+  color:rgba(54, 116, 181, 1) ;
+}
+.testimonialimage{
+  width: 1299px;
+height: 396px;
+position: absolute  ;
+top: 1117px;
+left: 500px;
+
+
+
+}

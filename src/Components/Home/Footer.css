@@ -1,0 +1,48 @@
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  height: 608px;
+top: 2230px;
+
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 100px;
+}
+
+.footer-logo h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b82f6; /
+}
+
+.footer-links {
+  display: flex;
+
+  gap: 50px;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  font-size: 14px;
+}
