@@ -1,26 +1,27 @@
 import "./Footer.css";
+import footercsithub from "../../assets/CsitHub.png";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h2>CSIT HUB</h2>
+          <img src={footercsithub} alt='csithub' className='footercsithub' />
+          <p>CsitHub offers high-quality notes, syllabus, and sample questions for CSIT students. Our mission is to simplify learning by providing well-organized and reliable study materials.</p>
         </div>
         <div className="footer-links">
           <div>
             <p>Home</p>
-            <p>About Us</p>
-            <p>Contact</p>
-            <p>FAQ’s</p>
-            <p>Privacy & Policy</p>
-          </div>
-          <div>
             <p>Notes</p>
+            <p>Dev Zone</p>
             <p>Sample Questions</p>
             <p>Syllabus</p>
+          </div>
+          <div>
+            <p>Contact Us</p>
             <p>Ask Now</p>
             <p>Terms & Conditions</p>
+            <p>Privacy & Policy</p>
           </div>
         </div>
       </div>
@@ -28,7 +29,7 @@ function Footer() {
         <p>Copyright © CSIT Hub | All Rights Reserved</p>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

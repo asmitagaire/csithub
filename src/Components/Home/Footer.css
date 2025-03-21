@@ -1,13 +1,13 @@
+
 .footer {
+
   background-color: #222;
   color: white;
   padding: 20px 0;
   width: 100%;
   position: relative;
-  height: 608px;
-top: 2230px;
-
-
+  height: 432px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-container {
@@ -16,22 +16,30 @@ top: 2230px;
   margin: 100px 100px;
 }
 
-.footer-logo h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #3b82f6; /
+.footercsithub {
+  margin-left: 100px;
 }
 
+.footer-logo p{
+  width: 355px;
+  height: 103px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+
+}
 .footer-links {
   display: flex;
 
-  gap: 50px;
+  gap: 200px;
+  margin-right: 136px;
 }
 
 .footer-links div {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 36px;
 }
 
 .footer-links p {
@@ -41,8 +49,8 @@ top: 2230px;
 
 .footer-bottom {
   text-align: center;
-  margin-top: 20px;
   padding: 10px;
   background-color: #333;
   font-size: 14px;
+  margin-top: 110px;
 }

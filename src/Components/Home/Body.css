@@ -1,37 +1,138 @@
-.middletext{
-    position: relative;
-    z-index: 2;
-    max-width: 600px;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-.middletext span {
-  color: rgba(54, 116, 181, 1); 
-  font-weight: 900;
-}
+/* Body.css */
 
 .bodypart {
-  position: relative;
-  width: 100%;
-  min-height: 70vh; /* Adjust height as needed */
-  background: url("../../assets/backgroundimage.png") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  font-family: 'Roboto' sans-serif;
   color: white;
-  opacity: 0.8;
+  text-align: center;
+  background: url('../../assets/background.png') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(12, 10, 10) cover;
+  opacity: 120%;
+  z-index: -1;
+  
 }
 
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: absolute;
+  width: 100%;
+  top: 29px;
+  left: 56;
+  z-index: 2;
+  
+}
+
+.csithub {
+  width: 150px;
+  
+}
+
+
+.navcontainer {
+  flex-grow: 1;
+  display: flex;
+  margin-left: 63%;
+  width: 43;
+  height: 19;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+
+  
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+  cursor: pointer;
+  
+}
+
+.navbar li a:hover {
+  color: #49a7ff;
+}
+
+
+.middletext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 507;
+  height: 197px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  
+
+}
+
+.middletext p {
+  margin: 10px 0;
+  font-size: 32px;
+}
+
+.highlight {
+  color: #49a7ff;
+  font-weight: bold;
+}
+
+.des{
+  width: 577;
+  height: 52;
+  top: 153px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+ 
+
+}
 .button1 {
   margin-top: 15px;
   padding: 10px 20px;
-  font-size: 1.2rem;
-  background-color: #007bff;
-  color: white;
+  background: rgba(54, 116, 181, 1);
   border: none;
-  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
   cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 8px;
+ 
+  
+  
+}
+
+.button1:hover {
+  background-color: #307dc1;
+  
 }
