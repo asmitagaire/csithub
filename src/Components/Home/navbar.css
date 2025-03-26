@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: absolute;
+    max-width: 100%;
+    top: 29px;
+    left: 56;
+    z-index: 2;
+  }
+  
+  .csithub {
+    width: 150px;
+
+  }
+  
+  .navcontainer {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 694px;
+    width: 43;
+    height: 19;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar li a{
+    text-decoration: none;
+    color: white;
+    height: 19px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .navbar li a:hover {
+    color: #49a7ff;
+  }
+  

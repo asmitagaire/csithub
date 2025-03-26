@@ -15,7 +15,7 @@
 /* Image styling */
 .BrainTeaserImage {
   max-width: 300px;
-  width: 260;
+  max-width: 260;
   height: 513px;
   top: 149px;
   left: 200px;
@@ -28,7 +28,7 @@
   width: 450px;
   height: 513px;
   left: 708px;
-  width: 531;
+  max-width: 531;
   border-radius: 35px;
   border-width: 1px;
   margin-top: 110px;

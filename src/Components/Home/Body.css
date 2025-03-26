@@ -1,18 +1,16 @@
 /* Body.css */
 
 .bodypart {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-align: center;
   background: url('../../assets/background.png') center/cover no-repeat;
   height: 100vh;
   position: relative;
-  background-color: rgb(12, 10, 10) cover;
-  opacity: 120%;
+  background-color: rgb(12, 10, 10);
+  opacity: 100%;
   z-index: -1;
-  
 }
-
 
 .header {
   display: flex;
@@ -24,14 +22,11 @@
   top: 29px;
   left: 56;
   z-index: 2;
-  
 }
 
 .csithub {
   width: 150px;
-  
 }
-
 
 .navcontainer {
   flex-grow: 1;
@@ -43,9 +38,6 @@
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
-
-
-  
 }
 
 .navbar {
@@ -55,14 +47,14 @@
   gap: 30px;
   margin: 0;
   padding: 0;
-  
 }
 
 .navbar li {
   display: inline;
 }
 
-.navbar li a {
+/* Target the Link components with their class */
+.navbar li .nav-link {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -70,13 +62,11 @@
   transition: color 0.3s ease;
   padding: 10px 15px;
   cursor: pointer;
-  
 }
 
-.navbar li a:hover {
+.navbar li .nav-link:hover {
   color: #49a7ff;
 }
-
 
 .middletext {
   position: absolute;
@@ -91,8 +81,6 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 45px;
-  
-
 }
 
 .middletext p {
@@ -105,7 +93,7 @@
   font-weight: bold;
 }
 
-.des{
+.des {
   width: 577;
   height: 52;
   top: 153px;
@@ -114,9 +102,8 @@
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
- 
-
 }
+
 .button1 {
   margin-top: 15px;
   padding: 10px 20px;
@@ -127,12 +114,8 @@
   cursor: pointer;
   transition: 0.3s ease;
   border-radius: 8px;
- 
-  
-  
 }
 
 .button1:hover {
   background-color: #307dc1;
-  
 }
