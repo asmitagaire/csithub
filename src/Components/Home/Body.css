@@ -2,70 +2,12 @@
 
 .bodypart {
   font-family: 'Roboto', sans-serif;
-  color: white;
   text-align: center;
   background: url('../../assets/background.png') center/cover no-repeat;
   height: 100vh;
   position: relative;
   background-color: rgb(12, 10, 10);
-  opacity: 100%;
-  z-index: -1;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
-  position: absolute;
-  width: 100%;
-  top: 29px;
-  left: 56;
-  z-index: 2;
-}
-
-.csithub {
-  width: 150px;
-}
-
-.navcontainer {
-  flex-grow: 1;
-  display: flex;
-  margin-left: 63%;
-  width: 43;
-  height: 19;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-}
-
-.navbar {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  display: inline;
-}
-
-/* Target the Link components with their class */
-.navbar li .nav-link {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s ease;
-  padding: 10px 15px;
-  cursor: pointer;
-}
-
-.navbar li .nav-link:hover {
-  color: #49a7ff;
+  opacity: 1;
 }
 
 .middletext {
@@ -76,32 +18,38 @@
   max-width: 600px;
   padding: 10px;
   border-radius: 10px;
-  width: 507;
+  width: 507px; 
   height: 197px;
   font-weight: 700;
   font-size: 32px;
   line-height: 45px;
+  z-index: 1; 
 }
 
 .middletext p {
   margin: 10px 0;
   font-size: 32px;
+  color: white; 
 }
 
 .highlight {
   color: #49a7ff;
   font-weight: bold;
+  height: 95px;
 }
 
 .des {
-  width: 577;
-  height: 52;
-  top: 153px;
+  width: 577px; 
+  height: 52px; 
   left: 10px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0%;
+  color: white; 
+  font-family: Roboto;
+
+
 }
 
 .button1 {

@@ -13,7 +13,7 @@
 }
 
 .why span {
-  color: #007bff; /* Adjust the color to match your theme */
+  color: #007bff; 
 
 }
 
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px; /* Adjust the spacing between the images */
+  gap: 300px; 
   margin-top: 30px;
   width: 1299;
   height: 396;
