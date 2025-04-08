@@ -1,48 +1,71 @@
 .footer {
-  background-color: #222;
+  background: rgba(59, 59, 59, 1);
   color: white;
-  padding: 20px 0;
+  padding: 20px 0 0 0; /* Removed bottom padding */
   width: 100%;
   position: relative;
-  height: 608px;
-top: 2230px;
-
-
+  height: 432px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  margin: 100px 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-.footer-logo h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #3b82f6; /
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 355px;
+}
+
+.footercsithub {
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
 }
 
 .footer-links {
   display: flex;
-
-  gap: 50px;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 100px;
+  color: white;
 }
 
 .footer-links div {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 36px;
 }
 
 .footer-links p {
   margin: 0;
+  color: white;
   cursor: pointer;
 }
 
 .footer-bottom {
+  background-color: #000;
+  width: 100%;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-bottom p {
+  color: white;
   text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #333;
   font-size: 14px;
+  margin: 0;
 }

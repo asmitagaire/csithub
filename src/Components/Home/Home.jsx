@@ -1,19 +1,20 @@
 import React from 'react'
-import Header from "./Header"
 import Body from "./Body"
 import Testimonials from "./Testimonials"
+import BrainTeaser from './BrainTeaser'
 import Footer from "./Footer"
+import Navbar from './Navbar'
 
 function Home() {
   return (
     <div>
-      <Header/>
+       <Navbar/>
       <Body/>
-      <Testimonials/>
+     <Testimonials/>
+      <BrainTeaser/>
       <Footer/>
     </div>
   )
 }
 
 export default Home
-

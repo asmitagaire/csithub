@@ -1,37 +1,69 @@
-.middletext{
-    position: relative;
-    z-index: 2;
-    max-width: 600px;
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-.middletext span {
-  color: rgba(54, 116, 181, 1); 
-  font-weight: 900;
-}
+/* Body.css */
 
 .bodypart {
-  position: relative;
-  width: 100%;
-  min-height: 70vh; /* Adjust height as needed */
-  background: url("../../assets/backgroundimage.png") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  color: white;
-  opacity: 0.8;
+  background: url('../../assets/background.png') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(12, 10, 10);
+  opacity: 1;
 }
 
+.middletext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 507px; 
+  height: 197px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  z-index: 1; 
+}
+
+.middletext p {
+  margin: 10px 0;
+  font-size: 32px;
+  color: white; 
+}
+
+.highlight {
+  color: #49a7ff;
+  font-weight: bold;
+  height: 95px;
+}
+
+.des {
+  width: 577px; 
+  height: 52px; 
+  left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: white; 
+  font-family: Roboto;
+
+
+}
 
 .button1 {
   margin-top: 15px;
   padding: 10px 20px;
-  font-size: 1.2rem;
-  background-color: #007bff;
-  color: white;
+  background: rgba(54, 116, 181, 1);
   border: none;
-  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
   cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 8px;
+}
+
+.button1:hover {
+  background-color: #307dc1;
 }

@@ -1,22 +1,37 @@
-.firstpart{
-text-align: center;
-margin-top: 100px;
+
+.firstpart {
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Roboto' sans-serif;
 }
-.why{
-font-weight: 700;
-font-size: 22px;
-line-height: 20px;
+
+.why {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 93px;
+  
 }
-.why span{
-  color:rgba(54, 116, 181, 1) ;
+
+.why span {
+  color: #007bff; 
+
 }
-.testimonialimage{
-  width: 1299px;
-height: 396px;
-position: absolute  ;
-top: 1117px;
-left: 500px;
+
+.secondpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px; 
+  margin-top: 30px;
+  width: 1299;
+  height: 396;
+  top: 36px;
+  left: 71px;
+  right: 70px;
+
+}
 
 
 
-}
+
+
